@@ -35,7 +35,7 @@ const createFile = async () => {
         console.log('Error while writing json file:', error);
       }
 
-      console.log('JSON file has been created in response.js!');
+      console.log('JSON file has been created in response.json!');
     }
   );
 };
