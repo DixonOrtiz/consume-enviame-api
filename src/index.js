@@ -27,7 +27,7 @@ const createFile = async () => {
   const data = await consumeApi();
 
   fs.writeFile(
-    './src/data/response.json',
+    'response.json',
     JSON.stringify(data, null, 4),
     'utf8',
     function (err) {
@@ -35,7 +35,7 @@ const createFile = async () => {
         console.log('Error while writing json file:', error);
       }
 
-      console.log('JSON file has been created in /src/data/response.js!');
+      console.log('JSON file has been created in response.js!');
     }
   );
 };

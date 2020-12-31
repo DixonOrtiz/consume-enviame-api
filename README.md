@@ -15,7 +15,3 @@
 ### Run
 
 `npm start`
-
-### Notes
-
-- The response file is created in src/data/response.json
