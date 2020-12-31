@@ -18,4 +18,4 @@
 
 ### Notes
 
-- The response file is created in src/data/response.json file
+- The response file is created in src/data/response.json
